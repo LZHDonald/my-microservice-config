@@ -43,6 +43,11 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
+data:
+  env: config-eureka-dev
+  user:
+    username: eureka-client-user
+    password: 1291029102
 ---
 server:
   port: 8001
@@ -84,3 +89,9 @@ info:
   company.name: www.lzh.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+data:
+  env: config-eureka-dev
+  user:
+    username: eureka-client-user
+    password: 1291029102
